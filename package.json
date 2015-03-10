@@ -1,0 +1,32 @@
+{
+  "name": "betterer",
+  "version": "0.0.0",
+  "description": "Proof of concept for tests that read better(er)",
+  "main": "src/betterer.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/javiercejudo/betterer"
+  },
+  "keywords": [
+    "testing",
+    "jasmine",
+    "mocha"
+  ],
+  "author": "Javier Cejudo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/javiercejudo/betterer/issues"
+  },
+  "homepage": "https://github.com/javiercejudo/betterer",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-mocha": "^2.0.0",
+    "should": "^5.0.0"
+  },
+  "dependencies": {
+    "camel-case": "~1.1.1"
+  }
+}
