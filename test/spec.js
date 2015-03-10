@@ -5,12 +5,12 @@
 var should = require('should');
 var better = require('../src/betterer.js').better;
 var testStub = {
-  someTest: function() { return ['o', '_']; }
+  callSaul: function() { return ['o', '_']; }
 };
 
 describe('betterer', function() {
   it('better return the right function', function() {
-    better('some test', testStub)().concat(testStub.someTest().reverse()).join('')
+    better('call Saul', testStub)().concat(testStub.callSaul().reverse()).join('')
       .should.be.exactly('o__o');
   });
 });
