@@ -3,8 +3,7 @@
 'use strict';
 
 var should = require('should');
-var camelCase = require('camel-case');
-var better = require('../src/better.js').better;
+var better = require('../src/betterer.js').better;
 var testStub = {
   someTest: function() { return ['o', '_']; }
 };
