@@ -12,7 +12,9 @@ Proof of concept for tests that read better(er)
 
 ```js
 var better = require('./betterer.js').better;
-var yourTests = require('./yourTests.js'); // must export a doTheRightThing function
+
+// must export a doTheRightThing function, typically with at least one `it`
+var yourTests = require('./yourTests.js');
 
 var o_o = describe;
 
@@ -20,6 +22,9 @@ o_o('using your thing', function() { var o_O = yourTests;
   o_o('the right way', better('do the right thing', o_O));
 });
 ```
+
+The string 'do the right thing' is mapped to the `doTheRightThing`
+function exported by `yourTests.js`.
 
 ## See more
 

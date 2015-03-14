@@ -10,7 +10,8 @@ var testStub = {
 
 describe('betterer', function() {
   it('better return the right function', function() {
-    better('call Saul', testStub)().concat(testStub.callSaul().reverse()).join('')
+    better('call Saul', testStub)()
+      .concat(testStub.callSaul().reverse()).join('')
       .should.be.exactly('o__o');
   });
 });
