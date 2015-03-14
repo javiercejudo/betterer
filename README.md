@@ -1,6 +1,8 @@
 # betterer
 
 [![Build Status](https://travis-ci.org/javiercejudo/betterer.svg)](https://travis-ci.org/javiercejudo/betterer)
+[![Coverage Status](https://coveralls.io/repos/javiercejudo/betterer/badge.svg?branch=master)](https://coveralls.io/r/javiercejudo/betterer?branch=master)
+[![Code Climate](https://codeclimate.com/github/javiercejudo/betterer/badges/gpa.svg)](https://codeclimate.com/github/javiercejudo/betterer)
 
 Proof of concept for tests that read better(er)
 
