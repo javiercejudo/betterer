@@ -1,6 +1,6 @@
 {
   "name": "betterer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Proof of concept for tests that read better(er)",
   "main": "src/betterer.js",
   "scripts": {
