@@ -30,6 +30,6 @@
     "should": "^8.0.1"
   },
   "dependencies": {
-    "camel-case": "^1.2.0"
+    "camel-case": "^2.1.0"
   }
 }
